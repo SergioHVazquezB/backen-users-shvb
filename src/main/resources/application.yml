@@ -1,0 +1,12 @@
+spring:
+    datasource:
+        url: jdbc:mariadb://bd-dwi-usuarios-shvb.c5wu28osiglt.us-east-1.rds.amazonaws.com:3306/db_dwi_users
+        username: root
+        password: root_shvb
+        driver-class-name: org.mariadb.jdbc.Driver
+    jpa:
+        show-sql: true
+        hibernate:
+            ddl-auto: update
+server:
+    port: 9192
